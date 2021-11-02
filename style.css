@@ -1,0 +1,102 @@
+.test
+{
+    color: blue;
+}
+
+
+
+body 
+{
+margin:auto;
+text-align:center;
+max-width:1280px;
+
+min-height:100%;
+
+margin:0 auto;
+
+position:relative;
+}
+
+.section1
+{
+background:linear-gradient(#192a46, #b79d5b);
+/* background-size: 100%; */
+height:400px;
+}
+
+.section2{
+
+background-color:white;
+
+height: 200px;
+}
+
+header
+{
+background-color:#192a46;
+}
+
+.header_image {
+position relative;
+top:0; height:100%;
+left:0; width:100%;
+}
+
+.menu {
+    display: flex;              /* Transformation en flexbox */
+    padding:0;                  /* Suppression des marges internes */
+    background-color:#192a46;;     /* Ajout de la couleur d'arrière-plan */
+    display: flex;              /* Transformation en flexbox */
+    padding:0;                  /* Suppression des marges internes */
+    justify-content: center     /* Alignements des liens dans le menu */
+}
+
+ul.menu {
+    background-color: #192a46;     /* Ajout de la couleur d'arrière-plan */
+}
+
+.menu li {
+    list-style-type: none ;       /* Suppression des puces */
+}
+
+.menu a {
+    display:block;                /* Transformation en block */
+    min-width: 350px;             /* Largeur minimale des liens */
+    margin: 0.5rem;               /* Marges externes (1 valeurs = 4 directions) */
+    padding: 0.4rem 0;            /* Marges internes (2 valeurs = haut/bas et gauche/droite)*/
+    text-align: center;           /* Centrage du texte */   
+    background-color: #b79d5b;    /* Couleur d'arrière-plan */
+    color: #fff;                  /* Couleur du texte */
+    text-decoration: none;        /* Suppression du soulignement */
+    border: 1px solid #fff;       /* Ajout d'une bordure */
+    border-radius: 4px;           /* Arrondis des bordures */
+}
+
+
+
+body, html{height:100%;}
+
+*{
+
+margin:0;
+
+padding:0;
+
+}
+
+footer{
+
+background:#b79d5b;
+
+position:absolute;
+
+bottom:0;
+
+width:100%;
+
+padding-top:50px;
+
+height:50px;
+
+}
